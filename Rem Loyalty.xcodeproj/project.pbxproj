@@ -113,12 +113,11 @@
 		5942758C266573200045E83B /* Rem Loyalty */ = {
 			isa = PBXGroup;
 			children = (
-				5942758D266573200045E83B /* AppDelegate.swift */,
+				594275C8266578810045E83B /* Application */,
+				594275CC266578970045E83B /* Flows */,
+				594275CD266578A30045E83B /* Resources */,
 				5942758F266573200045E83B /* ViewController.swift */,
-				59427591266573220045E83B /* Assets.xcassets */,
 				59427593266573220045E83B /* Main.storyboard */,
-				59427596266573220045E83B /* Info.plist */,
-				59427597266573220045E83B /* Rem_Loyalty.entitlements */,
 			);
 			path = "Rem Loyalty";
 			sourceTree = "<group>";
@@ -141,6 +140,31 @@
 			path = "Rem LoyaltyUITests";
 			sourceTree = "<group>";
 		};
+		594275C8266578810045E83B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5942758D266573200045E83B /* AppDelegate.swift */,
+				59427596266573220045E83B /* Info.plist */,
+				59427597266573220045E83B /* Rem_Loyalty.entitlements */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		594275CC266578970045E83B /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		594275CD266578A30045E83B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59427591266573220045E83B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9CBDD10F0E5E53F237AFBEC9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +175,6 @@
 				F7FD136E174F599C6E699E47 /* Pods-Rem LoyaltyTests.debug.xcconfig */,
 				48708B039EFF0BA83B2C9648 /* Pods-Rem LoyaltyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
