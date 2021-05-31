@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBF710D6CC727A4C5D8E762 /* Pods_Rem_Loyalty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB116DAE58FC4291AE63A171 /* Pods_Rem_Loyalty.framework */; };
+		3E7CC685CB489C59CC06AD78 /* Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0055903D06D4D05363FFD152 /* Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework */; };
+		529A1EFD3AA20B472AEA5C8F /* Pods_Rem_LoyaltyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5E94EE26BD4B580B991C3D /* Pods_Rem_LoyaltyTests.framework */; };
+		5942758E266573200045E83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942758D266573200045E83B /* AppDelegate.swift */; };
+		59427590266573200045E83B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5942758F266573200045E83B /* ViewController.swift */; };
+		59427592266573220045E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59427591266573220045E83B /* Assets.xcassets */; };
+		59427595266573220045E83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59427593266573220045E83B /* Main.storyboard */; };
+		594275A1266573230045E83B /* Rem_LoyaltyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594275A0266573230045E83B /* Rem_LoyaltyTests.swift */; };
+		594275AC266573230045E83B /* Rem_LoyaltyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594275AB266573230045E83B /* Rem_LoyaltyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5942759D266573230045E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59427582266573200045E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59427589266573200045E83B;
+			remoteInfo = "Rem Loyalty";
+		};
+		594275A8266573230045E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59427582266573200045E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59427589266573200045E83B;
+			remoteInfo = "Rem Loyalty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0055903D06D4D05363FFD152 /* Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04016E478612B15E0714F333 /* Pods-Rem Loyalty-Rem LoyaltyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Loyalty-Rem LoyaltyUITests.release.xcconfig"; path = "Target Support Files/Pods-Rem Loyalty-Rem LoyaltyUITests/Pods-Rem Loyalty-Rem LoyaltyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48708B039EFF0BA83B2C9648 /* Pods-Rem LoyaltyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem LoyaltyTests.release.xcconfig"; path = "Target Support Files/Pods-Rem LoyaltyTests/Pods-Rem LoyaltyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5942758A266573200045E83B /* Rem Loyalty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rem Loyalty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5942758D266573200045E83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5942758F266573200045E83B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59427591266573220045E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59427594266573220045E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59427596266573220045E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59427597266573220045E83B /* Rem_Loyalty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rem_Loyalty.entitlements; sourceTree = "<group>"; };
+		5942759C266573230045E83B /* Rem LoyaltyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rem LoyaltyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594275A0266573230045E83B /* Rem_LoyaltyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rem_LoyaltyTests.swift; sourceTree = "<group>"; };
+		594275A2266573230045E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594275A7266573230045E83B /* Rem LoyaltyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rem LoyaltyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594275AB266573230045E83B /* Rem_LoyaltyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rem_LoyaltyUITests.swift; sourceTree = "<group>"; };
+		594275AD266573230045E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5E94EE26BD4B580B991C3D /* Pods_Rem_LoyaltyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_LoyaltyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B0624D915C4224225EE45B /* Pods-Rem Loyalty-Rem LoyaltyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Loyalty-Rem LoyaltyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Rem Loyalty-Rem LoyaltyUITests/Pods-Rem Loyalty-Rem LoyaltyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB116DAE58FC4291AE63A171 /* Pods_Rem_Loyalty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rem_Loyalty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22C131214BF85458B78A136 /* Pods-Rem Loyalty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Loyalty.release.xcconfig"; path = "Target Support Files/Pods-Rem Loyalty/Pods-Rem Loyalty.release.xcconfig"; sourceTree = "<group>"; };
+		F521A32D5941D6420CCD111D /* Pods-Rem Loyalty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem Loyalty.debug.xcconfig"; path = "Target Support Files/Pods-Rem Loyalty/Pods-Rem Loyalty.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FD136E174F599C6E699E47 /* Pods-Rem LoyaltyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rem LoyaltyTests.debug.xcconfig"; path = "Target Support Files/Pods-Rem LoyaltyTests/Pods-Rem LoyaltyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59427587266573200045E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBF710D6CC727A4C5D8E762 /* Pods_Rem_Loyalty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59427599266573230045E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529A1EFD3AA20B472AEA5C8F /* Pods_Rem_LoyaltyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594275A4266573230045E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7CC685CB489C59CC06AD78 /* Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59427581266573200045E83B = {
+			isa = PBXGroup;
+			children = (
+				5942758C266573200045E83B /* Rem Loyalty */,
+				5942759F266573230045E83B /* Rem LoyaltyTests */,
+				594275AA266573230045E83B /* Rem LoyaltyUITests */,
+				5942758B266573200045E83B /* Products */,
+				9CBDD10F0E5E53F237AFBEC9 /* Pods */,
+				A70E3DCDDD86175E7436FD48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5942758B266573200045E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5942758A266573200045E83B /* Rem Loyalty.app */,
+				5942759C266573230045E83B /* Rem LoyaltyTests.xctest */,
+				594275A7266573230045E83B /* Rem LoyaltyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5942758C266573200045E83B /* Rem Loyalty */ = {
+			isa = PBXGroup;
+			children = (
+				5942758D266573200045E83B /* AppDelegate.swift */,
+				5942758F266573200045E83B /* ViewController.swift */,
+				59427591266573220045E83B /* Assets.xcassets */,
+				59427593266573220045E83B /* Main.storyboard */,
+				59427596266573220045E83B /* Info.plist */,
+				59427597266573220045E83B /* Rem_Loyalty.entitlements */,
+			);
+			path = "Rem Loyalty";
+			sourceTree = "<group>";
+		};
+		5942759F266573230045E83B /* Rem LoyaltyTests */ = {
+			isa = PBXGroup;
+			children = (
+				594275A0266573230045E83B /* Rem_LoyaltyTests.swift */,
+				594275A2266573230045E83B /* Info.plist */,
+			);
+			path = "Rem LoyaltyTests";
+			sourceTree = "<group>";
+		};
+		594275AA266573230045E83B /* Rem LoyaltyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594275AB266573230045E83B /* Rem_LoyaltyUITests.swift */,
+				594275AD266573230045E83B /* Info.plist */,
+			);
+			path = "Rem LoyaltyUITests";
+			sourceTree = "<group>";
+		};
+		9CBDD10F0E5E53F237AFBEC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F521A32D5941D6420CCD111D /* Pods-Rem Loyalty.debug.xcconfig */,
+				F22C131214BF85458B78A136 /* Pods-Rem Loyalty.release.xcconfig */,
+				B7B0624D915C4224225EE45B /* Pods-Rem Loyalty-Rem LoyaltyUITests.debug.xcconfig */,
+				04016E478612B15E0714F333 /* Pods-Rem Loyalty-Rem LoyaltyUITests.release.xcconfig */,
+				F7FD136E174F599C6E699E47 /* Pods-Rem LoyaltyTests.debug.xcconfig */,
+				48708B039EFF0BA83B2C9648 /* Pods-Rem LoyaltyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A70E3DCDDD86175E7436FD48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB116DAE58FC4291AE63A171 /* Pods_Rem_Loyalty.framework */,
+				0055903D06D4D05363FFD152 /* Pods_Rem_Loyalty_Rem_LoyaltyUITests.framework */,
+				8E5E94EE26BD4B580B991C3D /* Pods_Rem_LoyaltyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59427589266573200045E83B /* Rem Loyalty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594275B0266573230045E83B /* Build configuration list for PBXNativeTarget "Rem Loyalty" */;
+			buildPhases = (
+				1A7D99E26F150D655EAE74F3 /* [CP] Check Pods Manifest.lock */,
+				59427586266573200045E83B /* Sources */,
+				59427587266573200045E83B /* Frameworks */,
+				59427588266573200045E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rem Loyalty";
+			productName = "Rem Loyalty";
+			productReference = 5942758A266573200045E83B /* Rem Loyalty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5942759B266573230045E83B /* Rem LoyaltyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594275B3266573230045E83B /* Build configuration list for PBXNativeTarget "Rem LoyaltyTests" */;
+			buildPhases = (
+				FDFC69D4E95818B23ECE5A94 /* [CP] Check Pods Manifest.lock */,
+				59427598266573230045E83B /* Sources */,
+				59427599266573230045E83B /* Frameworks */,
+				5942759A266573230045E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5942759E266573230045E83B /* PBXTargetDependency */,
+			);
+			name = "Rem LoyaltyTests";
+			productName = "Rem LoyaltyTests";
+			productReference = 5942759C266573230045E83B /* Rem LoyaltyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594275A6266573230045E83B /* Rem LoyaltyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594275B6266573230045E83B /* Build configuration list for PBXNativeTarget "Rem LoyaltyUITests" */;
+			buildPhases = (
+				CA39453C0925A696F0041AE1 /* [CP] Check Pods Manifest.lock */,
+				594275A3266573230045E83B /* Sources */,
+				594275A4266573230045E83B /* Frameworks */,
+				594275A5266573230045E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594275A9266573230045E83B /* PBXTargetDependency */,
+			);
+			name = "Rem LoyaltyUITests";
+			productName = "Rem LoyaltyUITests";
+			productReference = 594275A7266573230045E83B /* Rem LoyaltyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59427582266573200045E83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					59427589266573200045E83B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					5942759B266573230045E83B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59427589266573200045E83B;
+					};
+					594275A6266573230045E83B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 59427589266573200045E83B;
+					};
+				};
+			};
+			buildConfigurationList = 59427585266573200045E83B /* Build configuration list for PBXProject "Rem Loyalty" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59427581266573200045E83B;
+			productRefGroup = 5942758B266573200045E83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59427589266573200045E83B /* Rem Loyalty */,
+				5942759B266573230045E83B /* Rem LoyaltyTests */,
+				594275A6266573230045E83B /* Rem LoyaltyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59427588266573200045E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59427592266573220045E83B /* Assets.xcassets in Resources */,
+				59427595266573220045E83B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5942759A266573230045E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594275A5266573230045E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7D99E26F150D655EAE74F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem Loyalty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA39453C0925A696F0041AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem Loyalty-Rem LoyaltyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFC69D4E95818B23ECE5A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rem LoyaltyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59427586266573200045E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59427590266573200045E83B /* ViewController.swift in Sources */,
+				5942758E266573200045E83B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59427598266573230045E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594275A1266573230045E83B /* Rem_LoyaltyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594275A3266573230045E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594275AC266573230045E83B /* Rem_LoyaltyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5942759E266573230045E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59427589266573200045E83B /* Rem Loyalty */;
+			targetProxy = 5942759D266573230045E83B /* PBXContainerItemProxy */;
+		};
+		594275A9266573230045E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59427589266573200045E83B /* Rem Loyalty */;
+			targetProxy = 594275A8266573230045E83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59427593266573220045E83B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59427594266573220045E83B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594275AE266573230045E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		594275AF266573230045E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		594275B1266573230045E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F521A32D5941D6420CCD111D /* Pods-Rem Loyalty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rem Loyalty/Rem_Loyalty.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Rem Loyalty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-Loyalty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		594275B2266573230045E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C131214BF85458B78A136 /* Pods-Rem Loyalty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rem Loyalty/Rem_Loyalty.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Rem Loyalty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-Loyalty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		594275B4266573230045E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FD136E174F599C6E699E47 /* Pods-Rem LoyaltyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				INFOPLIST_FILE = "Rem LoyaltyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-LoyaltyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rem Loyalty.app/Contents/MacOS/Rem Loyalty";
+			};
+			name = Debug;
+		};
+		594275B5266573230045E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48708B039EFF0BA83B2C9648 /* Pods-Rem LoyaltyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				INFOPLIST_FILE = "Rem LoyaltyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-LoyaltyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rem Loyalty.app/Contents/MacOS/Rem Loyalty";
+			};
+			name = Release;
+		};
+		594275B7266573230045E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B0624D915C4224225EE45B /* Pods-Rem Loyalty-Rem LoyaltyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				INFOPLIST_FILE = "Rem LoyaltyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-LoyaltyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Rem Loyalty";
+			};
+			name = Debug;
+		};
+		594275B8266573230045E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04016E478612B15E0714F333 /* Pods-Rem Loyalty-Rem LoyaltyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K9RH9LFWB6;
+				INFOPLIST_FILE = "Rem LoyaltyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VladYankovenko.Rem-LoyaltyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Rem Loyalty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59427585266573200045E83B /* Build configuration list for PBXProject "Rem Loyalty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594275AE266573230045E83B /* Debug */,
+				594275AF266573230045E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594275B0266573230045E83B /* Build configuration list for PBXNativeTarget "Rem Loyalty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594275B1266573230045E83B /* Debug */,
+				594275B2266573230045E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594275B3266573230045E83B /* Build configuration list for PBXNativeTarget "Rem LoyaltyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594275B4266573230045E83B /* Debug */,
+				594275B5266573230045E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594275B6266573230045E83B /* Build configuration list for PBXNativeTarget "Rem LoyaltyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594275B7266573230045E83B /* Debug */,
+				594275B8266573230045E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59427582266573200045E83B /* Project object */;
+}
